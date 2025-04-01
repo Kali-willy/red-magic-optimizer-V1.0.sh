@@ -1,0 +1,66 @@
+# Running the Script in Termux, Brevent, or Qute
+
+Here's a step-by-step guide for running the performance optimization script in each of the supported terminals:
+
+## In Termux:
+
+1. **Install Termux** from the Google Play Store or F-Droid if you don't have it already
+2. **Open Termux** and create a new file:
+   ```
+   nano red-magic-optimizer.sh
+   ```
+3. **Copy and paste** the entire script into the editor
+4. **Save the file** by pressing Ctrl+O, then Enter, then Ctrl+X
+5. **Make the script executable**:
+   ```
+   chmod +x red-magic-optimizer.sh
+   ```
+6. **Run the script**:
+   ```
+   ./red-magic-optimizer.sh
+   ```
+
+## In Brevent:
+
+1. **Install Brevent** from the Google Play Store
+2. **Open Brevent** and navigate to its terminal interface
+3. **Create a script file** in your device storage (you might need to do this using a file manager first)
+4. **Copy the script** to a location accessible by Brevent
+5. **Navigate to the script location**:
+   ```
+   cd /path/to/script/
+   ```
+6. **Make it executable**:
+   ```
+   chmod +x red-magic-optimizer.sh
+   ```
+7. **Execute the script**:
+   ```
+   ./red-magic-optimizer.sh
+   ```
+
+## In Qute:
+
+1. **Install Qute Terminal** from the app store
+2. **Launch Qute** and open a new terminal session
+3. **Create a new script file**:
+   ```
+   nano red-magic-optimizer.sh
+   ```
+4. **Paste the entire script** into the editor
+5. **Save and exit** the editor
+6. **Set execution permissions**:
+   ```
+   chmod +x red-magic-optimizer.sh
+   ```
+7. **Run the script**:
+   ```
+   ./red-magic-optimizer.sh
+   ```
+
+## Additional Tips:
+
+- The script will automatically check if you're running it in an appropriate terminal
+- Make sure to keep the terminal app running (or at least in the background) for continuous optimization
+- To stop the script, return to the terminal and press Ctrl+C
+- After a device restart, you'll need to run the script again if you want to reapply the optimizations
